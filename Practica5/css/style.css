@@ -1,0 +1,111 @@
+@import url(reset.css);
+
+.header {
+	width: 1440px;
+	height: 60px;
+	left: 0;
+	top: 0;
+	background-color: red;
+}
+.japan {
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 60px;
+	align-items: center;
+	color: white;
+	position: relative;
+	left: 20px;
+	font-weight: bold;
+}
+
+.one {
+	position: absolute;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	width: 400px;
+	height: 800px;
+	left: 70px;
+	top: 112px;
+}
+.tartOne {
+	position: absolute;
+	font-family: Helvetica;
+	font-size: 20px;
+	top: 27px;
+	left: 33px;
+	font-weight: bold;
+
+}
+
+.invisibleOne {
+	border: none;
+	width: 334px;
+	position: relative;
+	top: 209;
+	left: 103;
+}
+
+.bodyTart {
+	position: absolute;
+	top: 97px;
+	left: 33px;
+	font-family: Times New Roman;
+	font-size: 22px;
+	color: black;
+}
+
+.bodyTart p {
+	margin-bottom: 30px; 
+}
+
+.two {
+	position: absolute;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	width: 400px;
+	height: 800px;
+	left: 520px;
+	top: 112px;
+}
+
+.three {
+	position: absolute;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	width: 400px;
+	height: 800px;
+	left: 970px;
+	top: 112px;
+}
+
+.footer {
+	position: fixed;
+	width: 1440px;
+	height: 60px;
+	left: 0;
+	top: 964px;
+	background-color: red;
+}
+
+.copy {
+	position: absolute;
+	line-height: 60px;
+	left: 20px;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.back {
+	position: absolute;
+	line-height: 60px;
+	right: 20px;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
