@@ -1,0 +1,158 @@
+@import url(reset.css);
+
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  font-size: 80px;
+  z-index: 1;
+  }
+
+.logo {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-between;
+}
+
+.evian {
+  color: #E50043;
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.menu {
+  display: flex;
+  padding: 50px;
+  margin-right: 50px;
+}
+
+li a {
+  color: #E50043;
+  padding-left: 50px;
+}
+
+.img-container {
+  position: relative;
+  display: flex;
+  top: 140px;
+  /*background-size: cover;*/
+  background-size: 100%;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  /*display: flex;*/
+  background-size: 100%;
+}
+
+.slogan {
+  display: flex;
+  position: absolute;
+  color: #E50043;
+  font-size: 200px;
+  text-align: center;
+  align-items: center;
+  /*margin: 0 auto;*/
+}
+
+.ourWater {
+  width: 70%;
+  position: relative;
+  top: 50px;
+  border: 10px solid #F8BFC7;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 40px;
+  font-family: Arial;
+  font-size: 50px;
+  background-color: white;
+  color: black;
+}
+
+.threeBottles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.threeBottles img {
+  width: 100%;
+  /*height: 100%;*/
+}
+
+.threeBottles p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.wang {
+  height: 80%;
+  width: 80%;
+}
+
+.miniBottle {
+  width: 70%;
+  position: relative;
+  display: flex;
+  top: 50px;
+  border: 10px solid #F8BFC7;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 20px;
+  font-family: Arial;
+  font-size: 50px;
+  background-color: white;
+  color: black;
+}
+
+.miniBottle img {
+  padding-left: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.miniBottle p {
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  font-size: 80px;
+  height: 140px;
+  width: 100%;
+  background-color: #F8BFC7;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: sans-serif;
+  margin-top: 300px;
+  
+}
+
+/*.copy {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.back {
+  display: flex;
+  justify-content: space-between;
+  
+
+}*/
+
