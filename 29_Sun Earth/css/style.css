@@ -1,11 +1,12 @@
 @import url(reset.css);
 @keyframes rotate {
 			from {
-			  background-position: right top;
+				transform: rotate(0deg);
 			}
-      to {
-        background-position: left bottom;
-      }
+			to {
+				transform: rotate(360deg);
+
+			}
 		}
 		.page {
 		  /* эти единицы измерения мы изучим чуть похже */
@@ -35,9 +36,8 @@
 			left: 50%;
 			margin-top: -200px;
 			margin-left: -200px;
-			transform: rotate(15deg);
 			animation-name: rotate;
-      		animation-duration: 5s;
+      		animation-duration: 250s;
       		animation-iteration-count: infinite;
-      		animation-direction: alternate;
+      		animation-timing-function: linear;
 		}
